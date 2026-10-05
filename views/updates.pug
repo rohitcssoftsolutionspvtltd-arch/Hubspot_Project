@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    title Add HubSpot Record
+
+  body
+    h1 Add New HubSpot Record
+
+    form(action="/update-cobj" method="POST")
+
+      div
+        label(for="name") Name:
+        br
+        input#name(
+          type="text"
+          name="name"
+          required
+        )
+
+      br
+
+      div
+        label(for="breed") Breed:
+        br
+        input#breed(
+          type="text"
+          name="breed"
+          required
+        )
+
+      br
+
+      div
+        label(for="age") Age:
+        br
+        input#age(
+          type="number"
+          name="age"
+          required
+        )
+
+      br
+
+      button(type="submit") Create Record
+
+    br
+
+    a(href="/") Back to Records
