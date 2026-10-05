@@ -1,0 +1,1 @@
+This project is a Node.js and Express web application that integrates with the HubSpot CRM API (v3) to view and create contact records using Pug templates. It uses Axios to fetch and submit contact data to HubSpot endpoints, leverages environment variables for secure credential management with dotenv, and runs locally on port 7654.
